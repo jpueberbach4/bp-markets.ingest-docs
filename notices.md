@@ -12,7 +12,7 @@ If the latter succeeds, high chance of success, i will write extensive documenta
 
 If the GPU offloading succeeds, even higher chance of success, i will write extensive documentation on how to install the necessary drivers and how to test GPU availability under WSL2 (later under docker, and even later under kubernetes).
 
-Will be another nice update. Soon. Feature 035 - not yet there but coming tomorrow.
+Will be another nice update. Soon. Feature 035 - not yet there but coming tomorrow - not done but initialized, code starts to get updated. Just to be clear.
 
 **TA-lib tested indicators**
 
@@ -126,6 +126,7 @@ Hardening, quality. Then. Splitting up ETL to make more modular-more kubernetes 
 Feeds are back online. No further actions required.
 
 Update: I’ve been in contact with Dukascopy, and they’ve confirmed that the technical hiccups were on their side—they’ve since been fixed. Carry on was the message i read from it.
+
 
 
 
