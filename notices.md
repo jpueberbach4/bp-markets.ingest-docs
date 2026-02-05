@@ -1,3 +1,7 @@
+**Fallback for extremely wide column queries (prevent OOM's)**
+
+I’ll implement a dynamic sink that uses RAM first, spills to disk under memory pressure, and streams from disk as needed. If both RAM and disk are exhausted, we’ve reached the machine limit and must drop columns.
+
 **TA-lib tested indicators**
 
 In order to ensure quality I have tested some indicators against TA-lib, implemented through a unit-test. Users having Python ta-lib installed will be able to run the test. When TA-lib is not installed the unit-test will skip.
