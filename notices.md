@@ -4,6 +4,8 @@ I’ll implement a dynamic sink that uses RAM first, spills to disk under memory
 
 As a bonus i will implement an (experimental) gpu offload capability. So we will have a polars, pandas and a cudf/rapids hybrid indicator engine soon. It will help me-and users-to get familiar with gpu offloading as well for these kind of tasks. Ofcourse, all will be thoroughly documented and explained.
 
+I know that copying from memory to gpu memory causes latency. Thats why it stays/is experimental.
+
 **TA-lib tested indicators**
 
 In order to ensure quality I have tested some indicators against TA-lib, implemented through a unit-test. Users having Python ta-lib installed will be able to run the test. When TA-lib is not installed the unit-test will skip.
@@ -116,6 +118,7 @@ Hardening, quality. Then. Splitting up ETL to make more modular-more kubernetes 
 Feeds are back online. No further actions required.
 
 Update: I’ve been in contact with Dukascopy, and they’ve confirmed that the technical hiccups were on their side—they’ve since been fixed. Carry on was the message i read from it.
+
 
 
 
